@@ -46,8 +46,7 @@ export const TicketList = () => {
         const filterItems = Object.keys(filterItem)
         
         //фильтрация по количеству пересадок
-        filterItems.forEach(el => {
-            // setTicketList(data.filter(item => item.transfers === el))
+        filterItems.forEach(el => { 
             setTicketList(data.filter(({ transfers }) => filterItems.includes(transfers)))
         })
 

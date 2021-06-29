@@ -1,7 +1,7 @@
 import { createContext } from "react"
 
 interface IFilterContext {
-    filter: any,
+    filter: {},
     onChangeFilter: (obj: {}) => void
 }
 
