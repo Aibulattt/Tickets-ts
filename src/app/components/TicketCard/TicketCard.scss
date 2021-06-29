@@ -1,0 +1,96 @@
+.ticket-card {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.ticket__buy {
+    max-width: 250px;
+    min-width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: 1px solid #ccc;
+}
+
+.ticket__logo {
+    width: 200px;
+    height: 100px;
+}
+
+.ticket__btn {
+    margin-bottom: 20px;
+    min-height: 65px;
+    min-width: 200px;
+    font-size: 18px;
+    line-height: 22px;
+
+    span {
+        display: block;
+    }
+}
+
+.ticket__flight {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flight__to,
+.flight__from {
+    min-width: 140px;
+}
+
+.flight__arrow {
+    width: 90%;
+    margin-top: 11px;
+    margin-right: 10px;
+    white-space: nowrap;
+    position: relative;
+    color: #c2c2c2;
+    text-align: center;
+    
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: -10px;
+        height: 2px;
+        width: 100%;
+        background: #c2c2c2;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 12px;
+        width: 13px;
+        height: 13px;
+        background-image: url('../../../assets/plane.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform: rotate(45deg);
+    }
+}
+
+.flight__time {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.flight__city {
+    margin: 0;
+    font-weight: 600;
+}
+
+.flight__date {
+    margin: 0;
+    color: #c2c2c2;
+}

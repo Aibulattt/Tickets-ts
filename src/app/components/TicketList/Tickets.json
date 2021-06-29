@@ -1,0 +1,57 @@
+[
+    {
+        "price": 21032,
+        "fromTime": "09:25",
+        "fromCity": "VVO, Владивосток",
+        "fromDate": "9 окт 2018, Пт",
+        "toTime": "11:45",
+        "toCity": "Тель-Авив, TLV",
+        "toDate": "10 окт 2018, Пт",
+        "transplants": "Прямой",
+        "transfers": "direct"
+    },
+    {
+        "price": 22245,
+        "fromTime": "10:35",
+        "fromCity": "VVO, Владивосток",
+        "fromDate": "11 окт 2020, Пт",
+        "toTime": "12:34",
+        "toCity": "Тель-Авив, TLV",
+        "toDate": "12 окт 2020, Сб",
+        "transplants": "1 пересадка",
+        "transfers": "transplantOne"
+    },
+    {
+        "price": 12121,
+        "fromTime": "12:12",
+        "fromCity": "VVO, Владивосток",
+        "fromDate": "12 дек 2012, Пт",
+        "toTime": "13:12",
+        "toCity": "Тель-Авив, TLV",
+        "toDate": "13 дек 2012, Сб",
+        "transplants": "2 пересадки",
+        "transfers": "transplantTwo"
+    },
+    {
+        "price": 16261,
+        "fromTime": "03:25",
+        "fromCity": "VVO, Владивосток",
+        "fromDate": "9 окт 2018, Пт",
+        "toTime": "15:15",
+        "toCity": "Тель-Авив, TLV",
+        "toDate": "10 окт 2018, Пт",
+        "transplants": "3 пересадки",
+        "transfers": "transplantThree"
+    },
+    {
+        "price": 65321,
+        "fromTime": "09:25",
+        "fromCity": "VVO, Владивосток",
+        "fromDate": "9 окт 2018, Пт",
+        "toTime": "11:45",
+        "toCity": "Тель-Авив, TLV",
+        "toDate": "10 окт 2018, Пт",
+        "transplants": "1 пересадка",
+        "transfers": "transplantOne"
+    }
+]
